@@ -1,0 +1,5 @@
+services:
+  hello:
+    image: 'tutum/hello-world'
+    expose: 
+      - '80'
