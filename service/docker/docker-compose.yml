@@ -1,4 +1,10 @@
 version: '3'
+
+networks:
+  default:
+    external: 
+      name: ${CUSTOM_NETWORK_NAME}
+
 services:
   hello:
     image: 'tutum/hello-world'
